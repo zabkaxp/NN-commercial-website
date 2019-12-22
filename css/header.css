@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+
+.navBar {
+  margin: 10px 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navBar-logo > img {
+  width: 150px;
+}
+
+.navBar-logo:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.navBar-menu {
+  display: flex;
+}
+.navBar-menu > ul {
+  display: inline-flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.login-btn {
+  border: none;
+  background-color: #ee7f00;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 10px;
+}
+.navBar-menu > ul > li {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.navBar-menu > ul > li:not(:last-child) {
+  margin-right: 10px;
+}
+.navBar-menu > ul > li:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.header-box {
+  background-image: url(../img/orange-and-white-wallpaper.jpg);
+  background-size: cover;
+  height: 590px;
+  padding: 0 200px;
+  font-family: "OpenSans-Light";
+
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+.header-box-left {
+  width: 50%;
+}
+
+.header-box-left > img {
+  width: 300px;
+  margin-top: 70px;
+  border-radius: 10px;
+}
+.headerName {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+.headerDescription {
+  font-size: 23px;
+}
+.header-box-right {
+  font-size: 18px;
+  letter-spacing: 1px;
+  width: 50%;
+  text-align: left;
+  margin-top: 100px;
+  font-weight: 600;
+}
+.countdown > * {
+  display: inline-block;
+  letter-spacing: 0px;
+}
+.countdown > li {
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.header-pop-up {
+  margin: 0 auto;
+  margin-left: 0;
+  margin-top: 100px;
+  border: 1px solid gray;
+  font-size: 16px;
+  padding: 10px 35px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: fit-content;
+  transition: 0.5s ease-in-out;
+}
+.header-pop-up > img {
+  margin-right: 5px;
+  width: 18px;
+  transition: 0.5s ease-in-out;
+  margin-bottom: 2px;
+}
+.header-pop-up:hover {
+  color: #ee7f00;
+  cursor: pointer;
+}
+
+.header-pop-up:hover img {
+  transform: translateX(60%);
+}
