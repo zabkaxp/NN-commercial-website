@@ -1,3 +1,10 @@
 main {
   height: 590px;
 }
+
+.insurances-container {
+  display: flex;
+}
+.insurances-container > * {
+  width: 30%;
+}
