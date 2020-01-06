@@ -3,7 +3,6 @@
 <html lang="pl">
   <head>
     <meta charset="utf-8" />
-
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -14,96 +13,79 @@
       content="Oferta agenta ubezpieczeniowego Marka Wojno w Nationale Nederlanden."
     />
     <meta name="author" content="Marta Wojno" />
-
-    <link rel="stylesheet" href="css/style.css" />
-
-    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
     <header>
-      <section class="navBar">
-        <div class="navBar-logo">
-          <img src="img/logo.png" alt="logo Nationale Nederlanden" />
-        </div>
-        <div class="navBar-menu">
-          <ul>
-            <li>
-              <img src="img/person_outlineperm_identity.svg" />
-              O mnie
-            </li>
-            <li>
-              <img src="img/assignment.svg" />
-              Oferta
-            </li>
-            <li>
-              <img src="img/drive_file_rename_outline.svg" />
-              Blog
-            </li>
-            <li>
-              <img src="img/mail_outline.svg" />
-              Kontakt
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="header-box">
-        <div class="header-box-left">
-          <p class="headerName">Marek Wojno</p>
-          <p class="headerDescription">
-            Mobilny agent ubezpieczeniowy Nationale Nederlanden
-          </p>
-        </div>
-
-        <div class="header-box-right">
-          <section>
-            <p>
-              <a href="#">Kliknij</a>
-              i sprawdź nasze świąteczne zniżki!
-            </p>
-            <p>Promocja świąteczna kończy się za:</p>
-            <ul class="countdown">
-              <li>10 dni</li>
-              <p>:</p>
-              <li>12 godz</li>
-              <p>:</p>
-              <li>54 min</li>
-              <p>:</p>
-              <li>32 s</li>
+      <nav class="navbar navbar-expand-md sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="img/logo.png" alt="Nationale Nederlanden logo"
+          /></a>
+          <button
+            class="navbar-toggler custom-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    class="d-inline-block align-text-bottom"
+                    src="img/assignment.svg"
+                  />
+                  Oferta</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    class="d-inline-block align-text-bottom"
+                    src="img/person_outlineperm_identity.svg"
+                  />
+                  O mnie</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <img
+                    class="d-inline-block align-text-bottom"
+                    src="img/mail_outline.svg"
+                  />
+                  Kontakt</a
+                >
+              </li>
             </ul>
-          </section>
-          <div class="header-pop-up">
-            <img src="img/arrow_forward_ios.svg" />
-            Zobacz, dlaczego jesteśmy najlepsi
+          </div>
+        </div>
+      </nav>
+      <section class="header-box container-fluid padding">
+        <div class="row welcome text-center align-center" style="height:180px">
+          <div class="col-12 align-self-center">
+            <h1 class="display-4">MAREK WOJNO</h1>
+          </div>
+          <div class="col-12">
+            <p class="lead text-muted">
+              Mobilny Agent Ubezpieczeniowy Nationale Nederlanden
+            </p>
+          </div>
+          <hr />
+          <div class="col-12">
+            <p class="lead">
+              <a href="#">Kliknij</a> i sprawdź nasze świąteczne zniżki
+            </p>
+
+            <p>Promocja świąteczna kończy się za:</p>
           </div>
         </div>
       </section>
     </header>
-    <main>
-      <h1>Ubezpieczamy to, co najważniejsze</h1>
-      <section class="insurances-container">
-        <div>
-          <img src="" alt="" />
-          <h2></h2>
-          <p></p>
-          <button>Sprawdź</button>
-        </div>
-
-        <div>
-          <img src="" alt="" />
-          <h2></h2>
-          <p></p>
-          <button>Sprawdź</button>
-        </div>
-
-        <div>
-          <img src="" alt="" />
-          <h2></h2>
-          <p></p>
-          <button>Sprawdź</button>
-        </div>
-      </section>
-    </main>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -115,6 +97,6 @@
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
-    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
