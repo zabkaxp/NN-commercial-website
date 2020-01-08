@@ -14,3 +14,15 @@
 .navbar-nav > li > a {
   color: black;
 }
+
+main {
+  font-family: "OpenSans";
+}
+.openSans {
+  font-family: "OpenSans";
+}
+
+.btn {
+  background-color: rgb(238, 127, 0);
+  color: white;
+}
