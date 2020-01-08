@@ -26,3 +26,95 @@ main {
   background-color: rgb(238, 127, 0);
   color: white;
 }
+.about-me-section,
+footer {
+  background-color: rgb(238, 127, 0);
+  color: white;
+}
+.lead {
+  line-height: 28px;
+}
+.font-weight-bold {
+  letter-spacing: 1px;
+}
+.btn {
+  transition: 0.5s ease-in-out;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+/***** Modal *****/
+
+.modal-backdrop.in {
+  filter: alpha(opacity=7);
+  opacity: 0.7;
+}
+
+.modal-content {
+  background: none;
+  border: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.modal-body {
+  padding: 0 25px 25px 25px;
+}
+
+.modal-header {
+  padding: 5px;
+  text-align: right;
+}
+
+.modal-header,
+.modal-footer {
+  border: 0;
+}
+
+.modal-header .close {
+  float: none;
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: none;
+  opacity: 1;
+}
+
+.video-link {
+  padding-top: 50px;
+}
+
+.video-link a:hover,
+.video-link a:focus {
+  outline: 0;
+}
+
+a .video-link-text {
+  color: black;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a:hover .video-link-text,
+a:focus .video-link-text {
+  outline: 0;
+  color: gray;
+}
+a:hover {
+  -webkit-text-decoration-color: gray; /* Safari */
+  text-decoration-color: gray;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 930px;
+  }
+}
