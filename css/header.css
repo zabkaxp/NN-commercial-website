@@ -118,3 +118,13 @@ a:hover {
     max-width: 930px;
   }
 }
+
+.portrait {
+  max-width: 390px;
+}
+.col-10,
+.col-sm-7 {
+  padding-left: 0 !important;
+
+  padding-right: 0 !important;
+}
