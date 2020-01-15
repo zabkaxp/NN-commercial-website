@@ -107,11 +107,11 @@ a .video-link-text {
 a:hover .video-link-text,
 a:focus .video-link-text {
   outline: 0;
-  color: gray;
+color:white;
 }
 a:hover {
-  -webkit-text-decoration-color: gray; /* Safari */
-  text-decoration-color: gray;
+  -webkit-text-decoration-color: white; /* Safari */
+  text-decoration-color: white;
 }
 @media (min-width: 576px) {
   .modal-dialog {
@@ -127,4 +127,13 @@ a:hover {
   padding-left: 0 !important;
 
   padding-right: 0 !important;
+}
+
+@media screen and (max-width: 767px){
+  .portrait{
+    margin-right: auto !important;
+    margin-left: auto !important;
+
+  }
+
 }

@@ -149,3 +149,7 @@ h4 {
 p {
   line-height: 22px;
 }
+
+.cards>.card-custom:hover{
+  border: 1px red solid!important;
+}
