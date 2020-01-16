@@ -150,6 +150,10 @@ p {
   line-height: 22px;
 }
 
-.cards>.card-custom:hover{
-  border: 1px red solid!important;
+.cards > .card-custom {
+  transition: 0.5s ease-in-out;
+}
+
+.cards > .card-custom:hover {
+  border: 1px orange solid !important;
 }
